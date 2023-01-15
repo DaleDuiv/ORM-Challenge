@@ -71,11 +71,11 @@ router.delete('/:id', async (req, res) => {
     res.status(404).json({message: "No tag found"});
     return;    
   } else {
-    res.status(200).json(tagData);
+    res.status(200).json(`You have successfully deleted ${req.params.id}`);
   }
   } catch (err) {
     res.status(500).json(err);
-  } 
+  }
   });
 
 module.exports = router;
