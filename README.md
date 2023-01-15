@@ -24,5 +24,6 @@ A challenge I had was using the routes names and applyuing them in another file 
 
 ## preview 
 I will be uploading a video playthrough for a preview during assignment submission.
+[![Watch the video](./Develop/assets/ORMwalkthroughVideo.mp4)
 
 
